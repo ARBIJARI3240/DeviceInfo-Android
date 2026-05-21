@@ -1,0 +1,32 @@
+<!-- app/src/main/res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtDeviceInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مشخصات دستگاه"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/txtSystemHealth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="سلامت سیستم"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/txtBattery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="سلامت باتری"
+        android:padding="8dp" />
+
+</LinearLayout>
